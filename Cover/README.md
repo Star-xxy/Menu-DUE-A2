@@ -1,11 +1,15 @@
-# About Code Coverage
+# Visual Scripting (com.unity.visualscripting)
 
-Use the Code Coverage package with the **Test Runner** to gather and present test coverage information. When you run your tests with code coverage enabled you can see exactly which lines of your code are executed when the tests run in addition to whether the tests passed or failed.
+Visual Scripting, previously known as BOLT, is an alternative workflow to design behaviours. Instead of the classic method of writing a C# script, visual scripting offers a way to design behaviours intuitively without code, by connecting events, actions, and data together in a graph. 
 
-Once a test run has completed, the Code Coverage package will generate an HTML coverage report showing which lines of your code are covered by tests. Code Coverage currently supports **EditMode** and **PlayMode** tests. It also allows you to track the code coverage changes through time.
+Both programmers and non-programmers can use node-based graphs to design final logic or to quickly create prototypes. This package also features an API that programmers can use for more advanced tasks, or to create custom nodes that can be used by other team members.
 
-Additionally, the Code Coverage package offers a **Coverage Recording** feature which allows capturing coverage data on demand, in case you do not have tests in your project or doing manual testing.
+# Required Software
 
-The Code Coverage package is available as a released package via the Package Manager for Unity 2019.3 and above.
+Unity: Supported versions include 2021.1
 
-For more information see the [Code Coverage package documentation](https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@latest).
+# Documentation
+
+Documentation is available [here](https://docs.unity3d.com/bolt/1.4/manual/index.html).
+
+For further discussion, visit the [Discord](https://discord.com/channels/372898201088426004/372899380367458329) or the [Visual Scripting forum](https://forum.unity.com/forums/visual-scripting.537/).
